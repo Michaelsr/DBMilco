@@ -1,0 +1,34 @@
+SHOW DATABASES;
+
+CREATE DATABASE prueba;
+
+USE prueba;
+
+SHOW TABLES;
+
+SELECT * FROM producto;
+
+-- editar un campo de una columna de una tabla
+ 
+UPDATE producto SET fhecha_llegada="2020-05-21" 
+WHERE id_producto=1;
+
+-- editar la columna de una tabla
+
+ALTER TABLE producto CHANGE fhecha_llegada fecha_ingreso DATE;
+
+-- poner o cambiar el nombre por esa consulta
+SELECT COUNT(codigo) AS codigoQR FROM producto;
+
+-- insertar datos
+INSERT INTO productoVALUES();
+
+-- eliminar tabla 
+DROP TABLE producto;
+
+-- eliminar base de datos
+DROP DATABASE prueba;
+
+
+
+
