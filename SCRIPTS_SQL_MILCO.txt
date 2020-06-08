@@ -29,6 +29,7 @@ DROP TABLE producto;
 -- eliminar base de datos
 DROP DATABASE prueba;
 
-
+-- fecha automatica
+TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
 
